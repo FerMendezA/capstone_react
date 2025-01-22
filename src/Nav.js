@@ -1,12 +1,12 @@
 function Nav() {
     return (
-      <nav>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/about">About</a></li>
-          <li><a href="/menu">Menu</a></li>
-          <li><a href="/contact">Contact</a></li>
-        </ul>
+        <nav>
+        <a href="#" className="nav-item">HOME</a>
+        <a href="#" className="nav-item">ABOUT</a>
+        <a href="#" className="nav-item">MENU</a>
+        <a href="#" className="nav-item">RESERVATIONS</a>
+        <a href="#" className="nav-item">ORDER ONLINE</a>
+        <a href="#" className="nav-item">LOGIN</a>
       </nav>
     );
   }
