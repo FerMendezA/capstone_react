@@ -1,0 +1,54 @@
+#confirmation-dialogue {
+    display: block;
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    bottom: 0;
+    /* left: 18.2%; */
+}
+
+#confirmation-dialogue>div>svg {
+    display: block;
+    width: 150px;
+    margin: auto;
+}
+
+.confirmation-true {
+    float: right;
+}
+
+.confirmation-false {
+    float: left;
+    background-color: transparent;
+    border: 1px solid #495E57;
+}
+
+.confirmation-false,
+.confirmation-true {
+    width: 120px;
+}
+
+.confirmation-wrapper {
+    background-color: whitesmoke;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    border-radius: 8px 8px 0 0;
+    padding: 20px;
+    box-shadow: 0px -3px 8px 5px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    padding-bottom: 20px;
+    bottom: 0;
+}
+
+.confirmation-wrapper--close {
+    transform: translateY(900px);
+    transition: transform ease-in 500ms;
+    transition-delay: 1000ms;
+}
+
+.confirmation-wrapper--open {
+    transform: translateY(0);
+    transition: transform ease-in 500ms;
+    transition-delay: 1000ms;
+}

@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "esnext"],
+    "allowJs": true,  // Permite archivos .js
+    "checkJs": false, // No comprueba los errores de tipo en los archivos .js
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*"],  // Incluye todos los archivos .js y .tsx
+  "exclude": ["node_modules"]
+}

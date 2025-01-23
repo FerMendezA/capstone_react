@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 function Main() {
     return (
         <div className="hero">
@@ -7,9 +8,9 @@ function Main() {
                   <p className="subtitle">Chicago</p>
                   <p className="desc">We are a family owned Mediterranean restaurant, 
                       focused on traditional recipes served with a modern twist.</p>
-                  <a><button className="reserve-btn btn">
+                  <Link to="/booking" ><button className="reserve-btn btn">
                       Reserve a table
-                  </button></a>
+                  </button></Link>
               </div>
               <div className="img-wrapper">
               <img className="hero-img" src="../images/hero.png" alt="hero image"/>

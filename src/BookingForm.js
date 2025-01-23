@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import { useNavigate } from "react-router-dom";
-
-import AdditionalInformation from './AdditionalInformation';
-import '../styles/BookingForm.css';
+import AdditionalInformation from './AditionalInformation';
 import PeopleComponent from './PeopleComponent';
 import { BackButton, SmallLogo } from './lib/svg/FormSVG';
 import ConfirmationDialogue from './ConfirmationDialogue';
+import './styles/BookingForm.css';
+
 
 // Función para cambiar formato de fecha
 function changeDate(date) {

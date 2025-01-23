@@ -1,0 +1,50 @@
+#specials {
+    width: fit-content;
+    padding: 5rem;
+    margin: auto;
+}
+
+#specials>h2 {
+    margin-bottom: 1rem;
+}
+
+#specials-wrapper {
+    display: flex;
+    gap: 2rem;
+}
+
+.specials-description {
+    margin-top: 10px;
+    text-align: justify;
+    width: 300px;
+}
+
+.price {
+    float: right;
+}
+
+.specials-card>img {
+    object-fit: cover;
+    height: 266px;
+    margin-bottom: 0.5rem;
+    width: 300px;
+}
+
+@media screen and (max-width: 720px) {
+    #specials {
+        padding: 0;
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+        padding: 0 1%;
+    }
+
+    #specials-wrapper {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 720px) and (max-width: 1200px) {
+    #specials-wrapper {
+        flex-direction: column;
+    }
+}

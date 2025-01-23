@@ -1,0 +1,29 @@
+nav {
+    margin-top: 1rem;
+    color: black;
+}
+
+nav ul {
+    width: 60%;
+    margin: auto;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+
+@media screen and (max-width: 720px) {
+    nav ul {
+        flex-direction: column;
+        gap: 5px;
+    }
+}
